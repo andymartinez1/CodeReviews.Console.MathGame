@@ -6,7 +6,6 @@ internal class GameEngine
 {
     internal void AdditionGame(string message, DifficultyLevel difficulty)
     {
-        var random = new Random();
         var testLength = 5;
         var score = 0;
 
@@ -54,7 +53,6 @@ internal class GameEngine
 
     internal void SubtractionGame(string message, DifficultyLevel difficulty)
     {
-        var random = new Random();
         var testLength = 5;
         var score = 0;
 
@@ -102,7 +100,6 @@ internal class GameEngine
 
     internal void MultiplicationGame(string message, DifficultyLevel difficulty)
     {
-        var random = new Random();
         var testLength = 5;
         var score = 0;
 
